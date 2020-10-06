@@ -11,7 +11,7 @@ public class Boolean{
 }  else {
   System.out.println("enjoy your self in the club");
 }
-}*/
+} */
 /*public static void main(String[] args) {
   Console console=System.console();
   String season="summer";
