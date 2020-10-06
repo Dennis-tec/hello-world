@@ -12,7 +12,7 @@ public class Boolean{
   System.out.println("enjoy your self in the club");
 }
 }*/
-public static void main(String[] args) {
+/*public static void main(String[] args) {
   Console console=System.console();
   String season="summer";
   String week="weekend";
@@ -26,5 +26,24 @@ public static void main(String[] args) {
   } else {
     System.out.println("you will probably have an affordable trip");
   }
-}
+}*/
+
+public static void main(String[] args) {
+/*  String[] myGreeting={"Hi", "hello", "how are you"};*/
+  /* System.out.println(myGreetings[2]);*/
+/*for (String greeting : myGreeting) {
+  System.out.println(greeting);}*/
+  Integer[] groceryItemPrices = { 3, 6, 4, 2, 4, 4 };
+
+              for ( Integer groceryItem : groceryItemPrices ) {
+                System.out.println( groceryItem );
+              }
+
+              Integer total = 0;
+              for ( Integer price : groceryItemPrices) {
+                total = total + price;
+              }
+
+              System.out.println("Your total for this shopping trip will be: $" + total);
+            }
 }
